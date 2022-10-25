@@ -14,5 +14,11 @@ while True:
     else:
         digitadas.append(letra)
         print(digitadas)
-        
+    if letra in palavra:
+        print(F'MUITO BEMMMM!! A LETRA "{letra}" ESTÁ NA PALAVRA SECRETA!!')
+    else:
+        print(f'QUE PENA! A LETRA "{letra}" NÃO ESTÁ NA PALAVRA SECRETA... TENTE OUTRA VEZ.')
+        digitadas.pop
+        break
+
 
