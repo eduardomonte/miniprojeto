@@ -1,5 +1,8 @@
+from operator import le
+
+
 palavra = 'morango'
-digitadas = ''
+digitadas = []
 chances = 3
 
 while True:
@@ -9,4 +12,7 @@ while True:
         print('AHH não vale... por favor, digite apenas uma letra.')
         print('-='*30)
     else:
-        break
+        digitadas.append(letra)
+        print(digitadas)
+        
+
