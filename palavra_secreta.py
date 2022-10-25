@@ -1,6 +1,3 @@
-from operator import le
-
-
 palavra = 'morango'
 digitadas = []
 chances = 3
